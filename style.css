@@ -120,6 +120,9 @@ img{
     background-color: var(--left);
     margin: 10px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -137,21 +140,19 @@ img{
 }
 
 h3{
-    font-size: 32px;
+    font-size: 36px;
     margin: 15px;
     padding: 30px;
+    text-align: center;
 }
 
 footer{
-    width: 100%;
-    height: 15%;
     background-color: var(--nav);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
     
-
 }
 
 footer p{
@@ -215,9 +216,15 @@ footer p{
         display: flex;
         font-size: 12px;
     }
-    
+
+    h3{
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+    }
+
     footer p{
         margin: 2px;
-        font-size: 15px;
+        font-size: 13px;
     }
 }
